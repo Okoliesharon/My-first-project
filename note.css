@@ -1,0 +1,150 @@
+/* Header */
+.header{
+    margin: 2rem;
+}
+.header .text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+
+.header .texts .text h3{
+  / font-family: Inter;
+/*font-size: 30px;
+font-weight: 600;*/
+/*line-height: ;*/
+letter-spacing: -0.02em;
+text-align: left;
+color:  #1D2939;
+margin-bottom: .5rem;
+}
+
+.header .texts span{
+    
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color:  #667085;
+margin-bottom: 1rem;
+}
+
+.header .texts .button{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    
+}
+
+.header .texts .button #blue-btn{
+    background: #175CD3;
+    border: 1px ;
+    border-radius: 100px;
+    font-size: .7rem;
+    padding: .3rem .5rem;
+   color: white;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.header .texts .button #blue-btn:hover{
+    background-color: white;
+    color: #175CD3;
+    transition: all .5s ease-in-out;
+}
+.header .texts .button .white{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.header .texts .button .white #wht-btn{
+    background: #FFFFfF;
+   border: 0 solid #98A2B3 ;
+    padding: .3rem .5rem;
+    font-size: .7rem;
+   color:  #175CD3;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.header .texts .button .white #wht-btn:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 100px;
+    transition: all .5s ease-in-out;
+}
+
+.header .texts .reviews{
+    display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.header .texts .reviews .img img {
+    margin-left: -1rem;
+    margin-top: 2rem;
+
+}
+    
+
+
+.header .texts .reviews .stars{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-top: 2rem;
+}
+
+
+.header .texts .reviews .stars .star{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.header .texts .reviews .stars .star span{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #344054;
+} 
+
+
+<img src="images/Shopify.com svg.png" alt="" />
+            <img src="images/Coinbase svg.png" alt="" />
+            <img src="images/Dropbox svg.png" alt="" />
+            <img src="images/Intercom svg.png" alt="" />
+            <img src="images/Marvel svg.png" alt="" />
+            <img src="images/Automattic svg.png" alt="" />
+
+
+            <div class="canvas">
+          <div class="texts">
+            <div class="text">
+              <img src="images/zap (6).png" alt="">
+            </div>
+            <div class="text">
+              <img src="images/zap (7).png" alt="">
+            </div>
+            <div class="text">
+              <img src="images/zap (8).png" alt="">
+            </div>
+            <div class="text">
+              <img src="images/zap (9).png" alt="">
+            </div>
+          </div>
+          <div class="images"></div>
+        </div>
+
+        <small>The ClearLink Advantage</small>
+        <span id="head">Why choose ClearLink?</span>
+        <span>In a world where connection is everything, ClearLink takes the lead. Our <br>
+             cutting-edge video conferencing app offers:</span>
+      </div>
+      <div class="cav">
+        <img src="images/Hand-drawn arrow.png" alt="">
